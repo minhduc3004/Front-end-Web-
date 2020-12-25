@@ -1,0 +1,128 @@
+.boxHeader {
+    font-family: sans-serif;
+    margin-top: 1rem;
+    border: 1px solid;
+    display: flex;
+}
+
+.boxState,
+.boxAddress,
+.boxItem,
+.box_Price {
+    margin-top: 0.5rem;
+    border: 1px solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.boxIcon {
+    background: white;
+    border: 3px solid #bcbac5;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    font-size: 2rem;
+    color: #bcbac5;
+    z-index: 10;
+    position: relative;
+}
+
+
+.I_Active {
+    color: #493ea5;
+}
+
+i {
+    padding-left: 12px;
+}
+
+.Box_Active {
+    border: 3px solid #493ea5;
+    color: #493ea5;
+}
+
+.text_ID_Header {
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    width: 50%;
+}
+
+.text_Add_Header{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.text_State_Header {
+    padding-right: 5px;
+    text-align: right;
+    font-weight: bold;
+    width: 50%;
+}
+
+.textStatus,
+.timeStatus {
+    text-align: center;
+    font-size: x-small;
+}
+
+.text_User_Name,
+.text_Phone,
+.text_Address {
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+.text_Item_Details,
+.text_Price,
+.text_Quantity {
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.box_Price,
+.box_Delivery,
+.box_Free_Delivery,
+.box_Total_Price,
+.box_Pay_Way {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid;
+}
+
+.text_Item_Price,
+.text_Delivery,
+.text_Free_Delivery,
+.text_Total_Price,
+.text_Pay_Way {
+    width: 50%;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.number_Price,
+.number_Delivery,
+.number_Free_Delivery,
+.number_Total_Price,
+.number_Pay_Way {
+    width: 50%;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.number_Price:after,
+.number_Delivery:after,
+.number_Free_Delivery:after,
+.number_Total_Price:after {
+    content:' VND';
+}
